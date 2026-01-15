@@ -110,3 +110,23 @@ footer {
     border-radius: 6px;
     text-align: center;
 }
+
+.card img {
+    max-width: 150px;
+    height: auto;
+}
+
+.resources {
+    text-align: center;
+}
+
+.resources ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.resources li {
+    margin: 0.5rem 0;
+}
+
