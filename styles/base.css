@@ -1,88 +1,112 @@
-/* Global Styles */
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
+    background-color: #f4f4f4;
     color: #222;
 }
 
-/* Header */
 header {
-    background-color: #1b3a57;
-    color: #fff;
-    padding: 1rem;
+    background-color: #1f4e79;
+    color: white;
     text-align: center;
 }
 
 #course-title {
     display: block;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    padding: 1rem;
 }
 
-/* Navigation */
 nav {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
+    background-color: #333;
 }
 
 nav a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    transition: background-color 0.3s ease;
+    padding: 0.8rem;
 }
 
 nav a:hover {
-    background-color: #ffffff;
-    color: #1b3a57;
-    border-radius: 5px;
+    background-color: #1f4e79;
 }
 
-/* Main */
 main {
     max-width: 900px;
     margin: 2rem auto;
-    padding: 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 1.5rem;
 }
 
 h1 {
     grid-column: 1 / -1;
     text-align: center;
-    margin-bottom: 1rem;
 }
 
-/* Cards */
+.about-layout {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.about-image {
+    flex: 1;
+    text-align: right;
+}
+
+.about-image img {
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+.location-layout {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.location-layout img {
+    width: 80px;
+}
+
+
 .card {
-    background-color: #f4f4f4;
+    background-color: white;
     padding: 1rem;
     border-radius: 8px;
 }
 
 .card img {
-    width: 100%;
-    height: 200px;          
-    object-fit: cover;     
+    max-width: 100%;
     margin: 1rem 0;
-    border-radius: 6px;
 }
 
-
-/* Footer */
 footer {
-    background-color: #1b3a57;
-    color: #fff;
+    background-color: #1f4e79;
+    color: white;
     text-align: center;
     padding: 1rem;
-    margin-top: 2rem;
+}
+
+.card h2,
+.card h3 {
+    background-color: #1f4e79; /* azul del header */
+    color: white;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    text-align: center;
 }
