@@ -1,0 +1,75 @@
+/* ---------- RESET ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- CSS VARIABLES ---------- */
+:root {
+  --primary-color: #1f4e79;
+  --background-color: #f4f4f4;
+  --text-color: #222;
+}
+
+/* ---------- GENERAL ---------- */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* ---------- MAIN ---------- */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* ---------- HERO ---------- */
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ---------- WEATHER ---------- */
+.weather {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.weather ul {
+  list-style: none;
+  padding: 0;
+}
+
+.weather li {
+  margin: 0.5rem 0;
+}
+
+/* SVG icon (mobile view) */
+.weather-icon {
+  width: 50px;
+  display: block;
+  margin: 0.5rem auto;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}

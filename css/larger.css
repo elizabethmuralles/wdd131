@@ -1,0 +1,12 @@
+@media (min-width: 600px) {
+
+  /* Weather emoji for large view */
+  .weather h2::after {
+    content: " ⛅";
+  }
+
+  /* Hide SVG icon on large screens */
+  .weather-icon {
+    display: none;
+  }
+}
