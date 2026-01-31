@@ -1,4 +1,12 @@
-@media (min-width: 600px) {
+@media (min-width: 900px) {
+
+  /* Layout for large screens */
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
 
   /* Weather emoji for large view */
   .weather h2::after {
