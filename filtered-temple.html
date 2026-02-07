@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Album</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/temples.css">
+  <link rel="stylesheet" href="styles/temples-large.css">
+
+  <!-- JavaScript -->
+  <script src="scripts/temple.js" defer></script>
+</head>
+
+<body>
+
+<header>
+  <div class="header-content">
+    <h1>Temple Album</h1>
+    <button id="menu-button" aria-label="Menu">☰</button>
+  </div>
+
+  <nav id="navigation">
+    <a href="#" id="home">Home</a>
+    <a href="#" id="old">Old</a>
+    <a href="#" id="new">New</a>
+    <a href="#" id="large">Large</a>
+    <a href="#" id="small">Small</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Featured Temples</h2>
+
+  <!-- JS will insert the temple cards here -->
+  <section class="gallery" id="temple-cards"></section>
+</main>
+
+<footer>
+  <p>© <span id="year"></span> | Elizabeth Muralles | WDD 131</p>
+  <p>Last Modified: <span id="last-modified"></span></p>
+</footer>
+
+</body>
+</html>
