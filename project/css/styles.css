@@ -182,3 +182,51 @@ footer a {
     align-items: center;
   }
 }
+
+/* ===============================
+   PRODUCT REVIEW FORM IMPROVEMENTS
+================================ */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+
+fieldset.form-group {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+legend {
+  font-weight: 600;
+}
+
+.required {
+  color: #c1121f;
+  font-weight: bold;
+}
+
+/* radio & checkbox alignment */
+fieldset label {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: .4rem;
+}
+
+/* submit button style (because you used input submit) */
+input[type="submit"] {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: .8rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  opacity: .9;
+}
