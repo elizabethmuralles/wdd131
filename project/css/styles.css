@@ -78,3 +78,20 @@ footer {
   padding: 1rem;
   margin-top: 20px;
 }
+
+/* Mobile View */
+@media (max-width: 600px) {
+  .card {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .rating {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  input[type="submit"] {
+    font-size: 1.2rem;
+  }
+}

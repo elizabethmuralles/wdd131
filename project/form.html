@@ -23,53 +23,63 @@
       </select>
 
       <!-- Rating -->
-      <fieldset>
-        <legend>Overall Rating</legend>
+        <fieldset>
+        <legend>Overall Rating *</legend>
 
         <div class="rating">
-          <div>
-            <span>★</span>
+            <div>
             <input type="radio" id="r1" name="rating" value="1" required>
-          </div>
+            <label for="r1">★</label>
+            </div>
 
-          <div>
-            <span>★★</span>
-            <input type="radio" id="r2" name="rating" value="2">
-          </div>
+            <div>
+            <input type="radio" id="r2" name="rating" value="2" required>
+            <label for="r2">★★</label>
+            </div>
 
-          <div>
-            <span>★★★</span>
-            <input type="radio" id="r3" name="rating" value="3">
-          </div>
+            <div>
+            <input type="radio" id="r3" name="rating" value="3" required>
+            <label for="r3">★★★</label>
+            </div>
 
-          <div>
-            <span>★★★★</span>
-            <input type="radio" id="r4" name="rating" value="4">
-          </div>
+            <div>
+            <input type="radio" id="r4" name="rating" value="4" required>
+            <label for="r4">★★★★</label>
+            </div>
 
-          <div>
-            <span>★★★★★</span>
-            <input type="radio" id="r5" name="rating" value="5">
-          </div>
+            <div>
+            <input type="radio" id="r5" name="rating" value="5" required>
+            <label for="r5">★★★★★</label>
+            </div>
         </div>
-      </fieldset>
+        </fieldset>
+
+
 
       <!-- Date -->
       <label for="installDate">Date of Installation</label>
       <input type="date" id="installDate" name="installDate" required>
 
       <!-- Features -->
-      <fieldset>
+        <fieldset>
         <legend>
-          Which features did you find useful in the product?
-          <em>(Check all that apply)</em>
+            Which features did you find useful in the product?
+            <em>(Check all that apply)</em>
         </legend>
 
-        <label><input type="checkbox" name="features" value="Durability"> Durability</label>
-        <label><input type="checkbox" name="features" value="Ease of Use"> Ease of Use</label>
-        <label><input type="checkbox" name="features" value="Performance"> Performance</label>
-        <label><input type="checkbox" name="features" value="Design"> Design</label>
-      </fieldset>
+        <input type="checkbox" id="durability" name="features" value="Durability">
+        <label for="durability">Durability</label>
+
+        <input type="checkbox" id="ease" name="features" value="Ease of Use">
+        <label for="ease">Ease of Use</label>
+
+        <input type="checkbox" id="performance" name="features" value="Performance">
+        <label for="performance">Performance</label>
+
+        <input type="checkbox" id="design" name="features" value="Design">
+        <label for="design">Design</label>
+        </fieldset>
+
 
       <!-- Written -->
       <label for="review">
